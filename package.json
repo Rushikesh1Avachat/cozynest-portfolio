@@ -5,7 +5,7 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "build": "  npx tailwindcss -i ./src/style.css -o ./public/style.css --minify",
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/style.css",
     "watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
   }
 }
